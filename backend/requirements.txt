@@ -6,3 +6,4 @@ pillow==10.4.0
 python-multipart==0.0.9
 pydantic==2.9.2
 gunicorn==25.3.0
+ultralytics>=8.0.0

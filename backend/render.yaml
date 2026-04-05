@@ -3,7 +3,7 @@ services:
     name: pcb-vision-api
     env: python
     Root Directory: (Leave Blank)
-    Build Command: pip install -r backend/app/requirements.txt
+    Build Command: pip install -r backend/requirements.txt
     Start Command: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
@@ -11,5 +11,3 @@ services:
       - key: MODEL_PATH
         value: models/best.pt
 
-
-       
