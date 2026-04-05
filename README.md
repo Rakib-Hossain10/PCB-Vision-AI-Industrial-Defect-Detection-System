@@ -3,8 +3,8 @@
 An end-to-end Computer Vision solution for automated quality control in PCB manufacturing. This system uses a custom-trained YOLOv8 model to identify six common manufacturing defects in real-time.
 
 ## 🚀 Live Demo
-- **Frontend:** [Your-Vercel-URL-Here]
-- **API Documentation:** [Your-Render-URL-Here]/docs
+- **Frontend:** https://pcb-vision-ai-industrial-defect-det.vercel.app/
+- **API Documentation:** https://pcb-vision-ai-industrial-defect-y67a.onrender.com/docs
 
 ## 🧠 System Architecture
 The project follows a decoupled architecture for high scalability:
