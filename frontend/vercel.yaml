@@ -6,4 +6,4 @@ Root Directory: Set this to frontend.
 
 Framework Preset: Vite.
 
-Environment Variables: Add      BACKEND_RENDER_API_URL      and paste your Render backend URL.
+Environment Variables: Add      BACKEND_RENDER_API_URL      and paste your Render backend URL.    ->check .env

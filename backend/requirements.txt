@@ -7,3 +7,26 @@ python-multipart==0.0.9
 pydantic==2.9.2
 gunicorn==25.3.0
 ultralytics>=8.0.0
+
+
+
+#uf i will face any issue to deploy my backend in render then i will use this bellow version of requirements.txt
+
+"""
+# Web Server
+fastapi==0.115.0
+uvicorn==0.30.6
+gunicorn==23.0.0
+python-multipart==0.0.9
+pydantic==2.9.2
+
+# Deep Learning (CRITICAL for Render)
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+ultralytics>=8.0.0
+
+# Image Processing
+pillow==10.4.0
+opencv-python-headless  # Use 'headless' for servers to save space/memory
+numpy>=1.23.0
+"""
