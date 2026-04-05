@@ -1,0 +1,9 @@
+Vercel Setup:
+
+Go to Vercel and "Import" your repo.
+
+Root Directory: Set this to frontend.
+
+Framework Preset: Vite.
+
+Environment Variables: Add      BACKEND_RENDER_API_URL      and paste your Render backend URL.

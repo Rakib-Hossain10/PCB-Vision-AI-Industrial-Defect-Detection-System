@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+myvenv/
+.env
+
+# Project Specific
+temp_*.jpg
+outputs/predict_results/*
+!outputs/predict_results/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+notebooks/
+test_images/
+data/test/
+data/train/
+data/valid/
