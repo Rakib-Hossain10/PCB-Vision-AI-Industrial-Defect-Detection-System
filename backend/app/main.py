@@ -15,10 +15,13 @@ app = FastAPI()
 # Changed to 5173 to match your Vite frontend default port
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"], 
+    allow_origins=[
+        "https://pcb-vision-ai-industrial-defect-det.vercel.app/", # Add your real Vercel URL here!
+        "http://localhost:5173"
+    ],
     allow_credentials=True,
-    allow_methods=["*"],  
-    allow_headers=["*"],  
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Load the model once when the server starts to save memory and time
