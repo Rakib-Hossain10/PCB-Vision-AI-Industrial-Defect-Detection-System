@@ -16,7 +16,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://pcb-vision-ai-industrial-defect-det.vercel.app/", # Add your real Vercel URL here!
+        "https://pcb-vision-ai-industrial-defect-det.vercel.app", # REMOVE the trailing slash /
         "http://localhost:5173"
     ],
     allow_credentials=True,
