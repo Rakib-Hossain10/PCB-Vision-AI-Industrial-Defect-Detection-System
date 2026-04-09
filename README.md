@@ -1,6 +1,6 @@
 # PCB Vision AI: Industrial Defect Detection System
 
-An end-to-end Computer Vision solution for automated quality control in PCB manufacturing. This system uses a custom-trained YOLOv8 model to identify six common manufacturing defects in real-time.
+An end-to-end Computer Vision solution for automated quality control in PCB manufacturing. This system uses a custom-trained YOLOv11n model to identify six common manufacturing defects in real-time.
 
 ## 🚀 Live Demo
 - **Frontend:** https://pcb-vision-ai-industrial-defect-det.vercel.app/
