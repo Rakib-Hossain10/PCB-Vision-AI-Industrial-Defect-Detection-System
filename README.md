@@ -29,7 +29,7 @@ The model is optimized to detect:
 
 
 ## 📂 Project Structure
-```text
+
 .
 ├── backend/
 │   └── app/            # FastAPI logic & inference wrappers
@@ -58,3 +58,14 @@ npm run dev
 Ashfi Nazmus Rakib
 Computer Science & Technology Student
 Focus: Deep Learning & Intelligent Computing Systems
+
+
+
+Here is the output:
+
+![Project Result 1](result_images/1.jpg)
+
+![Project Result 2](result_images/2.jpg)
+
+![Project Result 3](result_images/3.jpg)
+
