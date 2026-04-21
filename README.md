@@ -66,9 +66,9 @@ Here is the output:
 Output 1
 ![Project Result 1](result_images/1.jpg)
 
-Output 1
+Output 2
 ![Project Result 2](result_images/2.jpg)
 
-Output 1
+Output 3
 ![Project Result 3](result_images/3.jpg)
 
